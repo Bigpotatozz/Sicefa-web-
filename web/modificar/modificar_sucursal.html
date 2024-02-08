@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <link rel="stylesheet" href="../style/indexSistema.css">
+    <link rel="stylesheet" href="../style/index.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@500&display=swap" rel="stylesheet">
+
+
+    <title>Modificar Clientes</title>
+</head>
+
+<body>
+
+    <div class="contenedorTotal">
+
+
+
+
+
+
+
+        <div class="sistema" id="informacion">
+
+        
+         
+
+            <div class="contenedor" id="agregarClientes">
+
+
+
+                <div class="borderSistem">
+                    <div class="columna">
+                       <div class="primerColumna columna1">
+                        <div class="inpt">
+                            <label>ID sucursal:</label>
+                            <br>
+                            <input type="text" id="idSucursal" readonly>
+                        </div>
+                        <div class="inpt">
+                            <label>Nombre titular:</label>
+                            <br>
+                            <input type="text" id="titular">
+                        </div>
+                        <div class="inpt">
+                            <label>RFC titular:</label>
+                            <br>
+                            <input type="text" id="rfc">
+                        </div>
+                        <div class="inpt">
+                            <label>Domicilio:</label>
+                            <br>
+                            <input type="text" id="domicilio">
+                        </div>
+                        <div class="inpt">
+                            <label>Colonia:</label>
+                            <br>
+                            <input type="text" id="colonia">
+                        </div>
+                        <div class="inpt">
+                            <label>Codigo postal:</label>
+                            <br>
+                            <input type="text" id="cp">
+                        </div>
+
+                        
+                        <div class="inpt">
+                            <label>Ciudad:</label>
+                            <br>
+                            <input type="text" id="ciudad">
+                        </div>
+                       </div>
+    
+                       <div class="primerColumna columna2">
+                        <div class="inpt">
+                            <label>Estado:</label>
+                            <br>
+                            <input type="text" id="estado">
+                        </div>
+                        <div class="inpt">
+                            <label>Telefono:</label>
+                            <br>
+                            <input type="text" id="telefono">
+                        </div>
+    
+                        <div class="inpt">
+                            <label>Latitud:</label>
+                            <br>
+                            <input type="text" id="latitud">
+                        </div>
+    
+                        <div class="inpt">
+                            <label>Longitud:</label>
+                            <br>
+                            <input type="text" id="longitud">
+                        </div>
+                     
+                        <div class="inpt">
+                            <label>Estatus:</label>
+                            <br>
+                            <input type="text" id="estatus" readonly>
+                        </div>
+                        <div class="inpt">
+                            <label>Nombre:</label>
+                            <br>
+                            <input type="text" id="nombre">
+                        </div>
+                       </div>
+    
+                     
+    
+                    </div>
+                
+                    <div class="registrar">
+                        <a id="modificar_sucursal" style="margin-top: -100px;">Modificar</a>
+                    </div>
+                </div>
+    
+                <div class="tabla">
+                    <div class="buscador">
+        
+                        <div class="inptBuscar">
+                            <input type="text" id="buscador_sucursales">
+                        </div>
+                        <div class="botonBuscar">
+                            <a id="boton_buscar_sucursales">Buscar</a>
+                            <a id="boton_actualizar" style="margin-left: 10px;">Actualizar</a>
+                        </div>
+                    </div>
+                   <table border="1">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Nombre</th>
+                                <th>telefono</th>
+                                <th>Correo</th>
+                                <th>Estatus</th>
+                            </tr>
+                        </thead>
+        
+                        <tbody id="fila">
+                            
+                        </tbody>
+                   </table>
+               
+        
+                </div>
+    
+            </div>
+
+
+        </div>
+
+
+
+        <script src="../js/index.js"></script>
+        
+</body>
+
+</html>

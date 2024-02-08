@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <link rel="stylesheet" href="../style/indexSistema.css">
+    <link rel="stylesheet" href="../style/index.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@500&display=swap" rel="stylesheet">
+
+
+    <title>Modificar Compra</title>
+</head>
+
+<body>
+
+    <nav id="nav">
+        <div class="nav-responsive">
+            <div class="barras" id="navbar" onclick="nav()">
+                <div class="barra"></div>
+
+                <div class="barra"></div>
+                <div class="barra"></div>
+
+            </div>
+
+        </div>
+        <div class="opciones-nav" id="opcionesNav">
+            <ul>
+
+                <li>
+                    <a id="central">Sicefa central</a>
+                </li>
+                <li>
+                    <a id="sucursal"> Sicefa sucursal</a>
+                </li>
+                <li>
+                    <a id="home">Home</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="contenedorTotal">
+
+
+
+
+        <div class="box navegacion2">
+
+            <a id="logo" class="logo">
+                <img src="../img/medicamos_tu_vida.png" alt="imagen aqui">
+            </a>
+            <ul>
+                <li>
+                    <a id="empleados" onclick="eliminarE()">
+                        <span>Empleados</span>
+                    </a>
+                </li>
+                <li>
+                    <a id="clientes">
+                        <span>Clientes</span>
+                    </a>
+                </li>
+                <li>
+                    <a id="compras" onclick="eliminarC()">
+                        <span>Compras</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a id="productos" onclick="eliminarP()">
+                        <span>Productos</span>
+                    </a>
+                </li>
+                <li>
+                    <a id="sucursal" onclick="eliminarS()">
+                        <span>Sucursal</span>
+                    </a>
+                </li>
+                <li class="logo-title">
+                    <span>developed by</span>
+                </li>
+                <li>
+                    <img class="logo-umb" src="../img/umbrella.png" alt="">
+                </li>
+            </ul>
+        </div>
+
+
+
+        <div class="sistema" id="sistema">
+
+
+            <div class="buscador">
+
+                <div class="inptBuscar">
+                    <input type="text">
+                </div>
+                <div class="botonBuscar">
+                    <a>Buscar</a>
+                </div>
+            </div>
+
+            <div class="contenedor" id="modificarVenta">
+
+
+
+                <div class="columna">
+                    <div class="primerColumna">
+
+
+                        <div class="inpt">
+                            <label>ID Cliente:</label>
+                            <br>
+                            <input type="text">
+                        </div>
+
+
+
+                        <div class="inpt">
+                            <label>ID Producto:</label>
+                            <br>
+                            <input type="text">
+                        </div>
+
+
+                        <div class="inpt">
+                            <label>Cantidad:</label>
+                            <br>
+                            <input type="text">
+                        </div>
+                        
+                        <div class="inpt">
+                            <label>Precio Unitario:</label>
+                            <br>
+                            <input type="text">
+                        </div>
+
+
+
+
+
+                    </div>
+                    <div class="segundaColumna">
+                        
+
+
+                        <div class="inpt">
+                            <label>Fecha:</label>
+                            <br>
+                            <input type="date">
+                        </div>
+                        
+                        <div class="inpt">
+                            <label>Hora:</label>
+                            <br>
+                            <input type="time">
+                        </div>
+                        <div class="inpt">
+                            <label>ID Empleado:</label>
+                            <br>
+                            <input type="text">
+                        </div>
+                        
+                        
+
+
+                    </div>
+
+                    <div class="tercerColumna">
+
+
+
+
+                        <div class="registrar">
+                            <a href="#">Modificar</a>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+
+        <script src="../js/index.js"></script>
+        <script src="./eliminar.js"></script>
+</body>
+
+</html>

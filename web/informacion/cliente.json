@@ -1,0 +1,184 @@
+[
+        {
+            "idCliente": 1,
+            "estatus": "inactivo",
+            "persona": {
+                "idPersona": "1",
+                "nombre": "Driss de las Heras",
+                "apellidoPaterno": "Hernandez",
+                "apellidoMaterno": "Munoz",
+                "genero": "hombre",
+                "fechaNacimiento": "12/5/1993 ",
+                "curp": "MEHA770826HDFNRR41",
+                "domicilio": "Carrer Negrete, 782, 5º F",
+                "calle": "blvd universidad tecnologica",
+                "codigoPostal": "24966",
+                "telefono": "606-21-1959",
+                "correo" : ""
+            }
+        },
+        {
+            "idCliente": 2,
+            "estatus": "activo",
+            "persona": {
+                "idPersona": "2",
+                "nombre": "Julio",
+                "apellidoPaterno": "Garcia",
+                "apellidoMaterno": "Munoz",
+                "genero": "hombre",
+                "fechaNacimiento": "12/5/1993 ",
+                "curp": "MEHA770826HDFNRR41",
+                "domicilio": "Carrer Negrete, 782, 5º F",
+                "calle": "blvd universidad tecnologica",
+                "codigoPostal": "24966",
+                "telefono": "606-21-1959",
+                "correo" : ""
+            }
+        },
+        {
+            "idCliente": 3,
+            "estatus": "activo",
+            "persona": {
+                "idPersona": "3",
+                "nombre": "Juan",
+                "apellidoPaterno": "Gomez",
+                "apellidoMaterno": "Munoz",
+                "genero": "hombre",
+                "fechaNacimiento": "12/5/1993 ",
+                "curp": "MEHA770826HDFNRR41",
+                "domicilio": "Carrer Negrete, 782, 5º F",
+                "calle": "blvd universidad tecnologica",
+                "codigoPostal": "24966",
+                "telefono": "606-21-1959",
+                "correo" : ""
+            }
+        },
+        {
+            "idCliente": 4,
+            "estatus": "activo",
+            "persona": {
+                "idPersona": "4",
+                "nombre": "Ramon",
+                "apellidoPaterno": "Sanchez",
+                "apellidoMaterno": "Munoz",
+                "genero": "hombre",
+                "fechaNacimiento": "12/5/1993 ",
+                "curp": "MEHA770826HDFNRR41",
+                "domicilio": "Carrer Negrete, 782, 5º F",
+                "calle": "blvd universidad tecnologica",
+                "codigoPostal": "24966",
+                "telefono": "606-21-1959",
+                "correo" : ""
+            }
+        },
+        {
+            "idCliente": 5,
+            "estatus": "activo",
+            "persona": {
+                "idPersona": "5",
+                "nombre": "Horacio",
+                "apellidoPaterno": "Gomez",
+                "apellidoMaterno": "Munoz",
+                "genero": "hombre",
+                "fechaNacimiento": "12/5/1993 ",
+                "curp": "MEHA770826HDFNRR41",
+                "domicilio": "Carrer Negrete, 782, 5º F",
+                "calle": "blvd universidad tecnologica",
+                "codigoPostal": "24966",
+                "telefono": "606-21-1959",
+                "correo" : ""
+            }
+        },
+        {
+            "idCliente": 6,
+            "estatus": "activo",
+            "persona": {
+                "idPersona": "6",
+                "nombre": "Liliana",
+                "apellidoPaterno": "Fernandez",
+                "apellidoMaterno": "Munoz",
+                "genero": "mujer",
+                "fechaNacimiento": "12/5/1993 ",
+                "curp": "MEHA770826HDFNRR41",
+                "domicilio": "Carrer Negrete, 782, 5º F",
+                "calle": "blvd universidad tecnologica",
+                "codigoPostal": "24966",
+                "telefono": "606-21-1959",
+                "correo" : ""
+            }
+        },
+        {
+            "idCliente": 7,
+            "estatus": "activo",
+            "persona": {
+                "idPersona": "7",
+                "nombre": "Cintia",
+                "apellidoPaterno": "Perez",
+                "apellidoMaterno": "Munoz",
+                "genero": "mujer",
+                "fechaNacimiento": "12/5/1993 ",
+                "curp": "MEHA770826HDFNRR41",
+                "domicilio": "Carrer Negrete, 782, 5º F",
+                "calle": "blvd universidad tecnologica",
+                "codigoPostal": "24966",
+                "telefono": "606-21-1959",
+                "correo" : ""
+            }
+        },
+        {
+            "idCliente": 8,
+            "estatus": "activo",
+            "persona": {
+                "idPersona": "8",
+                "nombre": "Ana",
+                "apellidoPaterno": "Garcia",
+                "apellidoMaterno": "Munoz",
+                "genero": "mujer",
+                "fechaNacimiento": "12/5/1993 ",
+                "curp": "MEHA770826HDFNRR41",
+                "domicilio": "Carrer Negrete, 782, 5º F",
+                "calle": "blvd universidad tecnologica",
+                "codigoPostal": "24966",
+                "telefono": "606-21-1959",
+                "correo" : ""
+            }
+        },
+        {
+            "idCliente": 9,
+            "estatus": "activo",
+            "persona": {
+                "idPersona": "9",
+                "nombre": "Graciela",
+                "apellidoPaterno": "Fernandez",
+                "apellidoMaterno": "Diaz",
+                "genero": "mujer",
+                "fechaNacimiento": "12/5/1993 ",
+                "curp": "MEHA770826HDFNRR41",
+                "domicilio": "Carrer Negrete, 782, 5º F",
+                "calle": "blvd universidad tecnologica",
+                "codigoPostal": "24966",
+                "telefono": "606-21-1959",
+                "correo" : ""
+            }
+        },
+        {
+            "idCliente": 10,
+            "estatus": "inactivo",
+            "persona": {
+                "idPersona": "10",
+                "nombre": "Alicia",
+                "apellidoPaterno": "Fernandez",
+                "apellidoMaterno": "Rodriguez",
+                "genero": "mujer",
+                "fechaNacimiento": "12/5/1993 ",
+                "curp": "MEHA770826HDFNRR41",
+                "domicilio": "Carrer Negrete, 782, 5º F",
+                "calle": "blvd universidad tecnologica",
+                "codigoPostal": "24966",
+                "telefono": "606-21-1959",
+                "correo" : ""
+            }
+        }
+        
+        
+]

@@ -1,0 +1,302 @@
+ [
+        {
+            "idEmpleado": "1",
+            "codigo": "00000001",
+            "fechaIngreso": "01/01/1901",
+            "puesto": "Administrador",
+            "salarioBruto": "$100.0",
+            "estatus":"activo",
+            "idSucursal": "1",
+            "usuario": {
+                "idUsuario": "1",
+                "nombreUsuario": "Administrador1",
+                "contrasenia": "Administrador",
+                "rol": "ADMC"
+            },
+            "persona": {
+                "idPersona": "1",
+                "nombre": "Driss de las Heras",
+                "apellidoPaterno": "Hernandez",
+                "apellidoMaterno": "Munoz",
+                "genero": "Hombre",
+                "fechaNacimiento": "12/5/1993 ",
+                "rfc": "QCZR791015ZT1",
+                "curp": "MEHA770826HDFNRR41",
+                "domicilio": "Carrer Negrete, 782, 5º F",
+                "codigoPostal": "24966",
+                "ciudad": "As Rojo",
+                "estado": "Estado de Mexico",
+                "telefono": "606-21-1959"
+            }
+        },
+        {
+            "idEmpleado": "2",
+            "codigo": "00000002",
+            "fechaIngreso": "01/01/1991",
+            "puesto": "Administrador",
+            "salarioBruto": "$1000.0",
+            "estatus":"activo",
+            "idSucursal": "2",
+            "usuario": {
+                "idUsuario": "2",
+                "nombreUsuario": "Administrador2",
+                "contrasenia": "Administrador",
+                "rol": "ADMC"
+            },
+            "persona": {
+                "idPersona": "2",
+                "nombre": "Daniel",
+                "apellidoPaterno": "Gutierrez",
+                "apellidoMaterno": "Fernandez",
+                "genero": "Hombre",
+                "fechaNacimiento": "17/7/1971",
+                "rfc": "WYDU031014JH7",
+                "curp": "VECG770826MDFGSS17",
+                "domicilio": "AV SAN NICOLAS 260, ARBOLEDAS DE SAN JORGE",
+                "codigoPostal": "66465",
+                "ciudad": "Monterrey",
+                "estado": "Nuevo Leon",
+                "telefono": " 81-8383-5345"
+            }
+        },
+        {
+            "idEmpleado": "3",
+            "codigo": "00000003",
+            "fechaIngreso": "01/01/2003",
+            "puesto": "Administrador",
+            "salarioBruto": "$10000.0",
+            "estatus":"activo",
+            "idSucursal": "3",
+            "usuario": {
+                "idUsuario": "3",
+                "nombreUsuario": "Administrador3",
+                "contrasenia": "Administrador",
+                "rol": "ADMC"
+            },
+            "persona": {
+                "idPersona": "3",
+                "nombre": "Carlos",
+                "apellidoPaterno": "Romero",
+                "apellidoMaterno": "Mancilla",
+                "genero": "Hombre",
+                "fechaNacimiento": "29/10/1985",
+                "rfc": "HPKL310118YN7",
+                "curp": "RISD770826HGRVNN41",
+                "domicilio": "76 507, CENTRO",
+                "codigoPostal": "97000",
+                "ciudad": "Mérida",
+                "estado": "Yucatan",
+                "telefono": "999-924-7990"
+            }
+        },
+        {
+            "idEmpleado": "4",
+            "codigo": "00000004",
+            "fechaIngreso": "01/01/2013",
+            "puesto": "Empleado",
+            "salarioBruto": "$10.0",
+            "estatus":"activo",
+            "idSucursal": "1",
+            "usuario": {
+                "idUsuario": "4",
+                "nombreUsuario": "Empleado1",
+                "contrasenia": "empleado",
+                "rol": "emp"
+            },
+            "persona": {
+                "idPersona": "4",
+                "nombre": "Victor",
+                "apellidoPaterno": "Ramirez",
+                "apellidoMaterno": "Estrada",
+                "genero": "Hombre",
+                "fechaNacimiento": "6/1/1963",
+                "rfc": "TNVW291101HL3",
+                "curp": "GAMM770826MMCRRR38",
+                "domicilio": "FAJA DE ORO 510, LAS VILLAS",
+                "codigoPostal": "89110",
+                "ciudad": "Tampico",
+                "estado": "Tamaulipas",
+                "telefono": "833-228-0903"
+            }
+        },
+        {
+            "idEmpleado": "5",
+            "codigo": "00000005",
+            "fechaIngreso": "01/01/2007",
+            "puesto": "Empleado",
+            "salarioBruto": "$100.0",
+            "estatus":"activo",
+            "idSucursal": "2",
+            "usuario": {
+                "idUsuario": "5",
+                "nombreUsuario": "Empleado2",
+                "contrasenia": "empleado",
+                "rol": "emp"
+            },
+            "persona": {
+                "idPersona": "5",
+                "nombre": "Patricia",
+                "apellidoPaterno": "Herrera",
+                "apellidoMaterno": "Suarez",
+                "genero": "Mujer",
+                "fechaNacimiento": "30/9/1962",
+                "rfc": "OMCM910626FWA",
+                "curp": "AAGS770826HCHLRR24",
+                "domicilio": "DEPORTES NO. 12, SAN LORENZO TEZONCO",
+                "codigoPostal": "09900",
+                "ciudad": "Iztapalapa",
+                "estado": "Ciudad de Mexico",
+                "telefono": "55-5863-9878"
+            }
+        },
+        {
+            "idEmpleado": "6",
+            "codigo": "00000006",
+            "fechaIngreso": "01/01/2017",
+            "puesto": "Empleado",
+            "salarioBruto": "$1000.0",
+            "estatus":"activo",
+            "idSucursal": "3",
+            "usuario": {
+                "idUsuario": "6",
+                "nombreUsuario": "Empleado3",
+                "contrasenia": "empleado",
+                "rol": "emp"
+            },
+            "persona": {
+                "idPersona": "6",
+                "nombre": "Susana",
+                "apellidoPaterno": "Alvarez",
+                "apellidoMaterno": "Acosta",
+                "genero": "Mujer",
+                "fechaNacimiento": "11/8/2001",
+                "rfc": "ZGWC811103DM0",
+                "curp": "RUEA770826MJCZSN55",
+                "domicilio": "CALLE 4TA OTE NO. 34, CENTRO",
+                "codigoPostal": "30700",
+                "ciudad": "Tapachula",
+                "estado": "Chiapas",
+                "telefono": "962-625-2133"
+            }
+        },
+        {
+            "idEmpleado": "7",
+            "codigo": "00000007",
+            "fechaIngreso": "01/01/2020",
+            "puesto": "Empleado",
+            "salarioBruto": "$3000.0",
+            "estatus":"activo",
+            "idSucursal": "1",
+            "usuario": {
+                "idUsuario": "7",
+                "nombreUsuario": "Empleado4",
+                "contrasenia": "empleado",
+                "rol": "emp"
+            },
+            "persona": {
+                "idPersona": "7",
+                "nombre": "Mónica",
+                "apellidoPaterno": "Suarez",
+                "apellidoMaterno": "Martinez",
+                "genero": "Mujer",
+                "fechaNacimiento": "27/3/1999",
+                "rfc": "UVQB010828TF7",
+                "curp": "ROML770826HCSDNS67",
+                "domicilio": "TAMAZULA DE GORDIANO NO. 83 S/N, JALISCO",
+                "codigoPostal": "45403",
+                "ciudad": "Tonala",
+                "estado": "Jalisco",
+                "telefono": "33-3607-7465"
+            }
+        },
+        {
+            "idEmpleado": "8",
+            "codigo": "00000008",
+            "fechaIngreso": "01/01/2010",
+            "puesto": "Empleado",
+            "salarioBruto": "$30.0",
+            "estatus":"activo",
+            "idSucursal": "2",
+            "usuario": {
+                "idUsuario": "8",
+                "nombreUsuario": "Empleado5",
+                "contrasenia": "empleado",
+                "rol": "emp"
+            },
+            "persona": {
+                "idPersona": "8",
+                "nombre": "Roberto",
+                "apellidoPaterno": "Fernandez",
+                "apellidoMaterno": "Torres",
+                "genero": "Hombre",
+                "fechaNacimiento": "9/3/1993",
+                "rfc": "OJWB331102AU9",
+                "curp": "VAPG770826MMCRNS39",
+                "domicilio": "CERAMICA NO. 197 NO. 3 COND 4, RESIDENCIAL TLAQUEPAQUE",
+                "codigoPostal": "45520",
+                "ciudad": "Tlaquepaque",
+                "estado": "Jalisco",
+                "telefono": "33-3601-5952"
+            }
+        },
+        {
+            "idEmpleado": "9",
+            "codigo": "00000009",
+            "fechaIngreso": "01/01/2012",
+            "puesto": "Empleado",
+            "salarioBruto": "$200.0",
+            "estatus":"activo",
+            "idSucursal": "3",
+            "usuario": {
+                "idUsuario": "9",
+                "nombreUsuario": "Empleado6",
+                "contrasenia": "empleado",
+                "rol": "emp"
+            },
+            "persona": {
+                "idPersona": "9",
+                "nombre": "Raul",
+                "apellidoPaterno": "Fernandez",
+                "apellidoMaterno": "Diaz",
+                "genero": "Hombre",
+                "fechaNacimiento": "20/2/1994",
+                "rfc": "FSUE520917SJ1",
+                "curp": "MENJ770826HCXDNS72",
+                "domicilio": "RIVA PALACIO NO. 227 NO. 12 Y 13, ALAMEDA",
+                "codigoPostal": "38050",
+                "ciudad": "Celaya",
+                "estado": "Guanajuato",
+                "telefono": "33-3601-5952"
+            }
+        },
+        {
+            "idEmpleado": "10",
+            "codigo": "00000010",
+            "fechaIngreso": "01/01/2022",
+            "puesto": "Empleado",
+            "salarioBruto": "$400.0",
+            "estatus":"activo",
+            "idSucursal": "1",
+            "usuario": {
+                "idUsuario": "10",
+                "nombreUsuario": "Empleado7",
+                "contrasenia": "empleado",
+                "rol": "emp"
+            },
+            "persona": {
+                "idPersona": "10",
+                "nombre": "Mirta",
+                "apellidoPaterno": "Aguirre",
+                "apellidoMaterno": "Medina",
+                "genero": "Mujer",
+                "fechaNacimiento": "6/8/1984",
+                "rfc": "KDVY540412SXA",
+                "curp": "SOGC770826MNLTZR83",
+                "domicilio": "ALUD NO. 1102 Int. 2, JARDINES DEL MORAL",
+                "codigoPostal": "37160",
+                "ciudad": "Leon",
+                "estado": "Guanajuato",
+                "telefono": " 477-717-1144"
+            }
+        }
+    ]

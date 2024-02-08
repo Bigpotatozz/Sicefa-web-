@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <link rel="stylesheet" href="../style/indexSistema.css">
+    <link rel="stylesheet" href="../style/index.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@500&display=swap" rel="stylesheet">
+
+
+    <title>Modificar Compra</title>
+</head>
+
+<body>
+
+  
+
+    <div class="contenedorTotal">
+
+
+
+
+        <div class="sistema" id="informacion">
+
+            <div class="buscador">
+        
+                <div class="inptBuscar">
+                    <input type="text" id="buscador_compras">
+                </div>
+                <div class="botonBuscar">
+                    <a id="boton_buscar_compra">Buscar</a>
+                </div>
+            </div>
+
+            <div class="contenedor" id="modificarCompra">
+
+
+
+                <div class="columna">
+                    <div class="primerColumna">
+
+
+                        <div class="inpt">
+                            <label>ID empleado:</label>
+                            <br>
+                            <input type="text" id="idEmpleado">
+                        </div>
+
+
+                        <div class="inpt">
+                            <label>ID producto:</label>
+                            <br>
+                            <input type="text" id="idProducto">
+                        </div>
+                        
+                        <div class="inpt">
+                            <label>cantidad:</label>
+                            <br>
+                            <input type="number" id="cantidad">
+                        </div>
+
+
+
+
+
+
+                    </div>
+                    <div class="segundaColumna">
+                        
+
+                        <div class="inpt">
+                            <label>Fecha:</label>
+                            <br>
+                            <input type="date" id="fecha">
+                        </div>
+                        
+                        <div class="inpt">
+                            <label>Hora:</label>
+                            <br>
+                            <input type="text" id="hora">
+                        </div>
+                        
+
+
+                    </div>
+
+                    <div class="tercerColumna">
+                        <div class="inpt">
+                            <label>Estatus:</label>
+                            <br>
+                         <select id="estatus_compra">
+                            <option value="activo">Activo</option>
+                            <option value="inactivo">Inactivo</option>
+                         </select>
+
+                          
+
+                        </div>
+
+
+
+                        <div class="registrar">
+                            <a id="modificar_compra">Modificar</a>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+
+        <script src="../js/index.js"></script>
+      <script src="../home/home.js"></script>
+</body>
+
+</html>

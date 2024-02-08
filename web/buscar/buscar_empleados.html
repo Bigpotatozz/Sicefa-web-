@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <link rel="stylesheet" href="../style/indexSistema.css">
+    <link rel="stylesheet" href="../style/index.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@500&display=swap" rel="stylesheet">
+
+
+    <title>Agregar Clientes</title>
+</head>
+
+<body>
+
+
+    <div class="contenedorTotal">
+
+
+        <div class="sistema" id="informacion">
+
+
+
+
+            <div class="contenedor" id="agregarEmp">
+
+                <div class="borderSistem">
+                    <div class="columna">
+                       <div class="primerColumna columna1">
+                        <div class="inpt">
+                            <label>Nombre(s):</label>
+                            <br>
+                            <input type="text" id="nombre">
+                        </div>
+                        <div class="inpt">
+                            <label>Apellido paterno:</label>
+                            <br>
+                            <input type="text" id="apaterno">
+                        </div>
+                        <div class="inpt">
+                            <label>Apellido materno:</label>
+                            <br>
+                            <input type="text" id="amaterno">
+                        </div>
+                        <div class="inpt">
+                            <label>Genero:</label>
+                            <br>
+                            <select id="genero">
+                                <option value="O">Hombre</option>
+                                <option value="M">Mujer</option>
+                            </select>
+                        </div>
+                       </div>
+
+                       <div class="primerColumna columna2">
+                        <div class="inpt">
+                            <label>Fecha de nacimiento:</label>
+                            <br>
+                            <input type="text" id="fnacimiento" placeholder="DD/MM/YYYY">
+                        </div>
+
+                        <div class="inpt">
+                            <label>RFC:</label>
+                            <br>
+                            <input type="text" id="rfc">
+                        </div>
+
+                        <div class="inpt">
+                            <label>CURP:</label>
+                            <br>
+                            <input type="text" id="curp">
+                        </div>
+                        <div class="inpt">
+                            <label>Domicilio:</label>
+                            <br>
+                            <input type="text" id="domicilio">
+                        </div>
+                       </div>
+
+                       <div class="primerColumna columna3">
+                        <div class="inpt">
+                            <label>Codigo postal:</label>
+                            <br>
+                            <input type="text" id="cp">
+                        </div>
+
+                        <div class="inpt">
+                            <label>Ciudad:</label>
+                            <br>
+                            <input type="text" id="ciudad">
+                        </div>
+
+                        <div class="inpt">
+                            <label>Estado:</label>
+                            <br>
+                            <input type="text" id="estado">
+                        </div>
+                        <div class="inpt">
+                            <label>Telefono:</label>
+                            <br>
+                            <input type="text" id="telefono">
+                        </div>
+                       </div>
+
+                       <div class="primerColumna columna4">
+                        <div class="inpt">
+                            <label>Foto:</label>
+                            <br>
+                            <input type="text" id="foto">
+                        </div>
+
+                        <div class="inpt">
+                            <label>Sucursal:</label>
+                            <br>
+                            <input type="number" id="idSucursal">
+                        </div>
+
+                        <div class="inpt">
+                            <label>Rol:</label>
+                            <br>
+                            <input type="text" id="rol">
+                        </div>
+                        <div class="inpt">
+                            <label>Puesto:</label>
+                            <br>
+                            <input type="text" id="puesto">
+                        </div>
+                       </div>
+
+                       <div class="primerColumna columna5">
+                        <div class="inpt">
+                            <label>Salario bruto:</label>
+                            <br>
+                            <input type="text" id="salarioBruto">
+                        </div>
+
+                        
+                        <div class="inpt">
+                            <label>ID:</label>
+                            <br>
+                            <input type="text" id="idEmpleado">
+                        </div>
+                        <div class="inpt">
+                            <label>Nombre usuario:</label>
+                            <br>
+                            <input type="text" id="nombreUsuario" readonly>
+                        </div>
+                        <div class="inpt">
+                            <label>Contraseña:</label>
+                            <br>
+                            <input type="text" id="contrasenia" readonly>
+                        </div>
+        
+                       </div>
+                    </div>
+                 
+              
+                </div>
+
+                  <div class="tabla">
+                    <div class="buscador">
+        
+                        <div class="inptBuscar">
+                            <input type="text" id="buscador_empleados">
+                        </div>
+                        <div class="botonBuscar">
+                            <a id="boton_buscar_empleados">Buscar</a>
+                            <a id="boton_actualizar" style="margin-left: 10px;">Actualizar</a>
+                        </div>
+                    </div>
+                   <table border="1">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Nombre</th>
+                                <th>telefono</th>
+                                <th>Fecha ingreso</th>
+                                <th>estatus</th>
+                            </tr>
+                        </thead>
+        
+                        <tbody id="fila">
+                            
+                        </tbody>
+                   </table>
+               
+        
+                </div>
+
+               
+            </div>
+               
+
+
+              
+            </div>
+
+           
+    
+
+
+        </div>
+
+
+
+        <script src="../js/index.js"></script>
+        <script src="./eliminar.js"></script>
+</body>
+
+</html>

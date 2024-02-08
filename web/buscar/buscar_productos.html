@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <link rel="stylesheet" href="../style/indexSistema.css">
+    <link rel="stylesheet" href="../style/index.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@500&display=swap" rel="stylesheet">
+
+
+    <title>Agregar Producto</title>
+</head>
+
+<body>
+
+   
+
+    <div class="contenedorTotal">
+
+
+
+
+
+
+
+        <div class="sistema" id="informacion">
+         
+           
+            <div class="contenedor" id="agregarProducto">
+                
+           
+
+
+
+                <div class="borderSistem">
+                    <div class="columna">
+                        <div class="primerColumna">
+    
+                            <div class="inpt">
+                                <label>ID producto:</label>
+                                <br>
+                                <input type="text" id="idProducto">
+                            </div>
+                           
+    
+    
+    
+                            <div class="inpt">
+                                <label>Nombre:</label>
+                                <br>
+                                <input type="text" id="nombre">
+                            </div>
+    
+    
+                            <div class="inpt">
+                                <label>Nombre generico:</label>
+                                <br>
+                                <input type="text" id="nombreGenerico">
+                            </div>
+                            
+                            
+                            <div class="inpt">
+                                <label>F.farmaceutica:</label>
+                                <br>
+                                <input type="text" id="formaFarmaceutica">
+                            </div>
+    
+                              
+                            <div class="inpt">
+                                <label> Codigo:</label>
+                                <br>
+                                <input type="text" id="codigo">
+                            </div>
+                            <div class="inpt">
+                                <label>Unidades de medida:</label>
+                                <br>
+                                <input type="text" id="unidadMedida">
+                            </div>
+                            
+    
+                            <div class="inpt">
+                                <label>Presentacion:</label>
+                                <br>
+                                <input type="text" id="presentacion">
+                            </div>
+                            <div class="inpt">
+                                <label>P.indicacion:</label>
+                                <br>
+                                <input type="text" id="Pindicacion">
+                            </div>
+    
+    
+                        </div>
+                        <div class="segundaColumna">
+                           
+                           
+                           
+                            <div class="inpt">
+                                <label>Contraindicaciones:</label>
+                                <br>
+                                <input type="text" id="contraindicaciones">
+                            </div>
+                              
+                            <div class="inpt">
+                                <label>URL foto:</label>
+                                <br>
+                                <input type="text" id="foto">
+                            </div>
+                            
+                            <div class="inpt">
+                                <label>Concentracion:</label>
+                                <br>
+                                <input type="text" id="concentracion">
+                            </div>
+                            
+                        
+                            <div class="inpt">
+                                <label>Unidades de envase:</label>
+                                <br>
+                                <input type="text" id="unidadesEnvase">
+                            </div>
+                            <div class="inpt">
+                                <label>Precio de compra:</label>
+                                <br>
+                                <input type="number" id="compra">
+                            </div>
+                            
+                            <div class="inpt">
+                                <label>Precio de venta:</label>
+                                <br>
+                                <input type="number" id="venta">
+                            </div>
+    
+                            <div class="inpt">
+                                <label>Estatus:</label>
+                                <br>
+                                <input type="number" id="estatus">
+    
+                              
+    
+                            </div>
+                        </div>
+    
+                        <div class="tercerColumna">
+                            <div class="inpt">
+                                <br>
+                                <img src="#" id="foto" width="200px" style="border: solid 1px white; border-radius: 10px;">
+                            </div>
+                         
+                         
+                          
+    
+                        </div>
+    
+    
+    
+                    </div>
+                </div>
+                
+
+                
+                <div class="tabla">
+                    <div class="buscador">
+        
+                        <div class="inptBuscar">
+                            <input type="text" id="buscador_productos">
+                        </div>
+                        <div class="botonBuscar">
+                            <a id="boton_buscar_productos">Buscar</a>
+                            <a id="boton_actualizar" style="margin-left: 10px;">Actualizar</a>
+                        </div>
+                    </div>
+                   <table border="1">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Nombre</th>
+                                <th>Precio compra</th>
+                                <th>Precio venta</th>
+                                <th>Unidades</th>
+                                <th>Estatus</th>
+                            </tr>
+                        </thead>
+        
+                        <tbody id="fila">
+                            
+                        </tbody>
+                   </table>
+               
+        
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+
+        <script src="../js/index.js"></script>
+        <script src="./eliminar.js"></script>
+</body>
+
+</html>

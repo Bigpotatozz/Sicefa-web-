@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <link rel="stylesheet" href="../style/indexSistema.css">
+    <link rel="stylesheet" href="../style/index.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@500&display=swap" rel="stylesheet">
+
+
+    <title>Modificar Clientes</title>
+</head>
+
+<body>
+
+    <div class="contenedorTotal">
+
+
+
+
+
+
+
+        <div class="sistema" id="informacion">
+
+            <div class="buscador">
+                    
+                <div class="inptBuscar">
+                    <input type="text" id="buscador_sucursal">
+                </div>
+                <div class="botonBuscar">
+                    <a id="boton_buscar_sucursal">Buscar</a>
+                </div>
+            </div>
+            
+        
+         
+
+            <div class="contenedor" id="modificarSucursal">
+
+
+                
+                <div class="columna">
+
+                    <div class="primerColumna">
+                        <p></p>
+
+                    
+
+
+
+                        <div class="inpt">
+                            <label>Nombre:</label>
+                            <br>
+                            <input type="text" id="nombre_sucursal">
+                        </div>
+
+
+                        <div class="inpt">
+                            <label>Titular:</label>
+                            <br>
+                            <input type="text" id="titular_sucursal">
+                        </div>
+                        
+                        <div class="inpt">
+                            <label>RFC:</label>
+                            <br>
+                            <input type="text" id="rfc_sucursal">
+                        </div>
+                        <div class="inpt">
+                            <label>Estado:</label>
+                            <br>
+                            <input list="estados" id="estado_sucursal">
+                            <datalist id="estados">
+                                <option value="AS">Aguascalientes</option>
+                                <option value="BC">Baja California</option>
+                                <option value="BS">Baja California Sur</option>
+                                <option value="CC">Campeche</option>
+                                <option value="CS">Chiapas</option>
+                                <option value="CH">Chihuahua</option>
+                                <option value="CL">Coahuila</option>
+                                <option value="CM">Colima</option>
+                                <option value="DF">Ciudad de Mexico</option>
+                                <option value="DG">Durango</option>
+                                <option value="GT">Guanajuato</option>
+                                <option value="GR">Guerrero</option>
+                                <option value="HG">Hidalgo</option>
+                                <option value="JC">Jalisco</option>
+                                <option value="MC">Mexico</option>
+                                <option value="MN">Michoacan</option>
+                                <option value="MS">Morelos</option>
+                                <option value="NT">Nayarit</option>
+                                <option value="NL">Nuevo Leon</option>
+                                <option value="OC">Oaxaca</option>
+                                <option value="PL">Puebla</option>
+                                <option value="QT">Queretaro</option>
+                                <option value="QR">Quintana Roo</option>
+                                <option value="SP">San Luis Potosi</option>
+                                <option value="SL">Sinaloa</option>
+                                <option value="SR">Sonora</option>
+                                <option value="TC">Tabasco</option>
+                                <option value="TS">Tamaulipas</option>
+                                <option value="TL">Tlaxcala</option>
+                                <option value="VZ">Veracruz</option>
+                                <option value="YN">Yucatan</option>
+                                <option value="ZS">Zacatecas</option>
+                            </datalist>
+                        </div>
+                        <div class="inpt">
+                            <label>Ciudad:</label>
+                            <br>
+                            <input type="text" id="ciudad_sucursal">
+                        </div>
+                        
+
+
+
+
+
+                    </div>
+                    <div class="segundaColumna">
+                        
+
+
+                        
+                        <p></p>
+                        <div class="inpt">
+                            <label>Calle:</label>
+                            <br>
+                            <input type="text" id="calle_sucursal">
+                        </div>
+
+                        <div class="inpt">
+                            <label>Colonia:</label>
+                            <br>
+                            <input type="text" id="colonia_sucursal">
+                        </div>
+                        <div class="inpt">
+                            <label>CP</label>
+                            <br>
+                            <input type="text" id="cp_sucursal">
+                        </div>
+                        <div class="inpt">
+                            <label>Latitud:</label>
+                            <br>
+                            <input type="text" id="latitud_sucursal">
+                        </div>
+                        <div class="inpt">
+                            <label>Longitud:</label>
+                            <br>
+                            <input type="text" id="longitud_sucursal">
+                        </div>
+                        <div class="inpt">
+                            <label>Telefono:</label>
+                            <br>
+                            <input type="text" id="telefono_sucursal">
+                        </div>
+
+
+                    </div>
+
+                    <div class="tercerColumna">
+                   
+                        
+
+                        <div class="inpt">
+                            <label>Estatus:</label>
+                            <br>
+                         <select id="estatus_sucursal">
+                            <option value="activo">Activo</option>
+                            <option value="inactivo">Inactivo</option>
+                         </select>
+
+                          
+
+                        </div>
+                         <div class="registrar">
+                            <a id="modificar">Modificar</a>
+                        </div>
+
+                       
+                    </div>
+
+
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+
+        <script src="../js/index.js"></script>
+        
+</body>
+
+</html>

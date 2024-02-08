@@ -1,0 +1,115 @@
+{
+    "venta": [
+        {
+            "idVenta": "1",
+            "estatus": "0",
+            "idCliente" : "1",
+            "idEmpleado" : "1",
+            "idProducto" : "1",
+            "cantidad" : "2",
+            "precioUnitario" : "200",
+            "fecha" : "09/17/1995",
+            "hora" : "2:59 pm"
+        },
+        {
+            "idVenta": "2",
+            "estatus": "0",
+            "idCliente" : "2",
+            "idEmpleado" : "2",
+            "idProducto" : "2",
+            "cantidad" : "20",
+            "precioUnitario" : "200",
+            "fecha" : "09/17/1995",
+            "hora" : "2:59 pm"
+        },
+        {
+            "idVenta": "3",
+            "estatus": "0",
+            "idCliente" : "3",
+            "idEmpleado" : "3",
+            "idProducto" : "3",
+            "cantidad" : "300",
+            "precioUnitario" : "200",
+            "fecha" : "09/17/1995",
+            "hora" : "2:59 pm"
+        },
+        {
+            "idVenta": "4",
+            "estatus": "0",
+            "idCliente" : "4",
+            "idEmpleado" : "4",
+            "idProducto" : "4",
+            "cantidad" : "244",
+            "precioUnitario" : "200",
+            "fecha" : "09/17/1995",
+            "hora" : "2:59 pm"
+        },
+        {
+            "idVenta": "5",
+            "estatus": "0",
+            "idCliente" : "5",
+            "idEmpleado" : "5",
+            "idProducto" : "5",
+            "cantidad" : "255",
+            "precioUnitario" : "200",
+            "fecha" : "09/17/1995",
+            "hora" : "2:59 pm"
+        },
+        {
+            "idVenta": "6",
+            "estatus": "1",
+            "idCliente" : "6",
+            "idEmpleado" : "6",
+            "idProducto" : "6",
+            "cantidad" : "255",
+            "precioUnitario" : "200",
+            "fecha" : "09/17/1995",
+            "hora" : "2:59 pm"
+        },
+        {
+            "idVenta": "7",
+            "estatus": "0",
+            "idCliente" : "7",
+            "idEmpleado" : "7",
+            "idProducto" : "7",
+            "cantidad" : "277",
+            "precioUnitario" : "200",
+            "fecha" : "09/17/1995",
+            "hora" : "2:59 pm"
+        },
+        {
+            "idVenta": "8",
+            "estatus": "0",
+            "idCliente" : "8",
+            "idEmpleado" : "8",
+            "idProducto" : "8",
+            "cantidad" : "888",
+            "precioUnitario" : "200",
+            "fecha" : "09/17/1995",
+            "hora" : "2:59 pm"
+        },
+        {
+            "idVenta": "9",
+            "estatus": "0",
+            "idCliente" : "9",
+            "idEmpleado" : "9",
+            "idProducto" : "9",
+            "cantidad" : "299",
+            "precioUnitario" : "200",
+            "fecha" : "09/17/1995",
+            "hora" : "2:59 pm"
+        },
+        {
+            "idVenta": "10",
+            "estatus": "0",
+            "idCliente" : "10",
+            "idEmpleado" : "10",
+            "idProducto" : "10",
+            "cantidad" : "200",
+            "precioUnitario" : "200",
+            "fecha" : "09/17/1995",
+            "hora" : "2:59 pm"
+        }
+
+    ]
+}

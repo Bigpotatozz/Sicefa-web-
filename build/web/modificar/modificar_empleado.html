@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <link rel="stylesheet" href="../style/indexSistema.css">
+    <link rel="stylesheet" href="../style/index.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@500&display=swap" rel="stylesheet">
+
+
+    <title>Agregar Clientes</title>
+</head>
+
+<body>
+
+
+    <div class="contenedorTotal">
+
+
+        <div class="sistema" id="informacion">
+
+            <div class="buscador">
+    
+                <div class="inptBuscar">
+                    <input type="text" id="buscador_empleados">
+                </div>
+                <div class="botonBuscar">
+                    <a id="boton_buscar_empleados">Buscar</a>
+                </div>
+            </div>
+            
+
+
+            <div class="contenedor" id="agregarEmp">
+
+
+
+                <div class="columna">
+                    <div class="primerColumna">
+
+
+                        <div class="inpt">
+                            <label>Nombre(s):</label>
+                            <br>
+                            <input type="text" id="nombre">
+                        </div>
+
+
+
+                        <div class="inpt">
+                            <label>Apellido paterno:</label>
+                            <br>
+                            <input type="text" id="apaterno">
+                        </div>
+
+
+                        <div class="inpt">
+                            <label>Apellido materno:</label>
+                            <br>
+                            <input type="text" id="amaterno">
+                        </div>
+                       
+
+
+
+                   
+                        <div class="inpt">
+                            <label>Estado:</label>
+                            <br>
+                            <input list="estados">
+                            <datalist id="estados">
+                                <option value="AS">Aguascalientes</option>
+                                <option value="BC">Baja California</option>
+                                <option value="BS">Baja California Sur</option>
+                                <option value="CC">Campeche</option>
+                                <option value="CS">Chiapas</option>
+                                <option value="CH">Chihuahua</option>
+                                <option value="CL">Coahuila</option>
+                                <option value="CM">Colima</option>
+                                <option value="DF">Ciudad de Mexico</option>
+                                <option value="DG">Durango</option>
+                                <option value="GT">Guanajuato</option>
+                                <option value="GR">Guerrero</option>
+                                <option value="HG">Hidalgo</option>
+                                <option value="JC">Jalisco</option>
+                                <option value="MC">Mexico</option>
+                                <option value="MN">Michoacan</option>
+                                <option value="MS">Morelos</option>
+                                <option value="NT">Nayarit</option>
+                                <option value="NL">Nuevo Leon</option>
+                                <option value="OC">Oaxaca</option>
+                                <option value="PL">Puebla</option>
+                                <option value="QT">Queretaro</option>
+                                <option value="QR">Quintana Roo</option>
+                                <option value="SP">San Luis Potosi</option>
+                                <option value="SL">Sinaloa</option>
+                                <option value="SR">Sonora</option>
+                                <option value="TC">Tabasco</option>
+                                <option value="TS">Tamaulipas</option>
+                                <option value="TL">Tlaxcala</option>
+                                <option value="VZ">Veracruz</option>
+                                <option value="YN">Yucatan</option>
+                                <option value="ZS">Zacatecas</option>
+                            </datalist>
+                        </div>
+                        <div class="inpt">
+                            <label>Calle:</label>
+                            <br>
+                            <input type="text" id="calle">
+                        </div>
+                        <div class="inpt">
+                            <label>Colonia:</label>
+                            <br>
+                            <input type="text" id="colonia">
+                        </div>
+                        <div class="inpt">
+                            <label>Codigo Postal:</label>
+                            <br>
+                            <input type="text" id="cp">
+                        </div>
+
+                    </div>
+                    <div class="segundaColumna">
+                        <div class="inpt">
+                            <label>Fecha de Ingreso:</label>
+                            <br>
+                            <input type="date" id="fingreso">
+                        </div>
+                        <div class="inpt">
+                            <label>Puesto:</label>
+                            <br>
+                            <input list="puesto">
+                            <datalist id="puesto">
+                                <option value="adms">Administrador</option>
+                                <option value="emps">Empleado</option>
+                            </datalist>
+                        </div>
+                        <div class="inpt">
+                            <label>Salario:</label>
+                            <br>
+                            <input type="text" id="salario">
+                        </div>
+                        <div class="inpt">
+                            <label>Codigo de empleado:</label>
+                            <br>
+                            <input type="text" id="cempleado">
+                        </div>
+
+
+
+
+                        <div class="inpt">
+                            <label>CURP:</label>
+                            <br>
+                            <input type="text" id="curp">
+                        </div>
+                        <div class="inpt">
+                            <label>Fecha de nacimiento:</label>
+                            <br>
+                            <input type="date" id="fnacimiento">
+                        </div>
+                        <div class="inpt">
+                            <label>RFC:</label>
+                            <br>
+                            <input type="text" id="rfc">
+                        </div>
+
+
+
+
+
+
+
+
+
+
+                    </div>
+
+
+                    <div class="tercerColumna">
+                        
+                        <div class="inpt">
+                            <label>Genero:</label>
+                            <br>
+                           <select id="genero">
+                            <option value="Hombre">Hombre</option>
+                            <option value="Mujer">Mujer</option>
+                           </select>
+                        </div>
+                        <div class="inpt">
+                            <label>Telefono:</label>
+                            <br>
+                            <input type="text" id="telefono">
+                        </div>
+                        
+
+                        <div class="registrar">
+                            <a id="mod">Modificar</a>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+
+        <script src="../js/index.js"></script>
+        <script src="./eliminar.js"></script>
+</body>
+
+</html>

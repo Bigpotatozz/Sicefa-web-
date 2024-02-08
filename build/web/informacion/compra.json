@@ -1,0 +1,101 @@
+ [
+        {
+            "idCompra": 1,
+            "estatus":"activo",
+            "idEmpleado" : "1",
+            "idProducto" : "1",
+            "cantidad" : "2",
+            "fecha" : "09/17/1995",
+            "hora" : "2:59 pm"
+        },
+        {
+            "idCompra": 2,
+            "estatus":"activo",
+            "idEmpleado" : "2",
+            "idProducto" : "2",
+            "cantidad" : "3",
+            "fecha" : "05/22/2008",
+            "hora" : "2:57 pm"
+        },
+        {
+            "idCompra": 3,
+            "estatus":"activo",
+            "idEmpleado" : "3",
+            "idProducto" : "3",
+            "cantidad" : "4",
+            "fecha" : "10/16/1999",
+            "hora" : "3:00 pm"
+        },
+        {
+            "idCompra": true,
+            "estatus":"activo",
+            "idEmpleado" : "4",
+            "idProducto" : "4",
+            "cantidad" : "200",
+            "fecha" : "09/17/2022",
+            "hora" : "3:02 pm"
+        },
+        {
+            "idCompra": 5,
+            "estatus":"activo",
+            "idEmpleado" : "4",
+            "idProducto" : "4",
+            "cantidad" : "30",
+            "fecha" : "09/17/2020",
+            "hora" : "3:03 pm"
+        },
+        {
+            "idCompra": true,
+            "estatus":"activo",
+            "idEmpleado" : "5",
+            "idProducto" : "5",
+            "cantidad" : "300",
+            "fecha" : "09/15/2020",
+            "hora" : "3:04 pm"
+        },
+        {
+            "idCompra": true,
+            "estatus":"activo",
+            "idEmpleado" : "6",
+            "idProducto" : "6",
+            "cantidad" : "100",
+            "fecha" : "09/15/2021",
+            "hora" : "3:09 pm"
+        },
+        {
+            "idCompra":8,
+            "estatus":"activo",
+            "idEmpleado" : "7",
+            "idProducto" : "7",
+            "cantidad" : "1000",
+            "fecha" : "09/15/2019",
+            "hora" : "3:14 pm"
+        },
+        {
+            "idCompra": 9,
+            "estatus":"activo",
+            "idEmpleado" : "8",
+            "idProducto" : "8",
+            "cantidad" : "3000",
+            "fecha" : "09/12/2022",
+            "hora" : "3:44 pm"
+        },
+        {
+            "idCompra": 10,
+            "estatus":"activo",
+            "idEmpleado" : "9",
+            "idProducto" : "9",
+            "cantidad" : "150",
+            "fecha" : "09/15/2021",
+            "hora" : "3:14 pm"
+        },
+        {
+            "idCompra": 11,
+            "estatus":"activo",
+            "idEmpleado" : "10",
+            "idProducto" : "10",
+            "cantidad" : "3002",
+            "fecha" : "09/15/2023",
+            "hora" : "1:02 pm"
+        }
+    ]

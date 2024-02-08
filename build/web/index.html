@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+
+<head>
+    <title>SICEFA</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   
+    
+
+    <link href="style/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@500&display=swap" rel="stylesheet">
+
+  
+
+</head>
+
+<body>
+
+    <nav id="nav">
+        <div class="nav-responsive">
+            <div class="barras" id="navbar" onclick="nav()">
+                <div class="barra"></div>
+
+                <div class="barra"></div>
+                <div class="barra"></div>
+
+            </div>
+
+        </div>
+        <div class="opciones-nav" id="opcionesNav">
+            <ul>
+              
+                <li>
+                    <a href="home/login_central.html" id="central">Sicefa central</a>
+                </li>
+                <li>
+                    <a href="./home/login_sucursal.html" id="sucursal"> Sicefa sucursal</a>
+                </li>
+                <li>
+                    <a  href="./index.html" id="home">Home</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="wraper" id="wraper">
+        <header>
+
+           
+
+
+
+            <!-- CONTENIDO DEL HEADER-->
+
+            <section class="informacion row">
+                <div class="col-lg-6 col-12 texto">
+                    <h1>Medicamos</h1>
+                    <h1>tu vida</h1>
+                    <h2>Venta de medicamentos</h2>
+                    
+
+                </div>
+                <div class="col-lg-6 col-12 imagen">
+
+                    <div class="cardH">
+                        <h2>Central</h2>
+                        <p>Sicefa central es la
+                            sede principal de medicamos tu vida SA</p>
+                        <a href="#sicefaC">Acceder</a>
+                    </div>
+                    <div class="cardH" id="card2">
+                        <h2>Sucursal</h2>
+                        <p>Sicefa central es la
+                            sede principal de medicamos tu vida SA</p>
+                        <a href="#sicefaS">Acceder</a>
+                    </div>
+                    <div class="cardH" id="card3">
+                        <h2>Nosotros</h2>
+                        <p>Conoce un poco mas acerca de nosotros</p>
+                        <a href="#nosotros">Acceder</a>
+                    </div>
+                </div>
+            </section>
+
+        </header>
+
+
+        <section class="nosotros-container row" id="nosotros">
+
+
+            <div class="col-lg-5 col-md-12 col-12 texto">
+                <div class="text-container">
+                    <h2>Nosotros</h2>
+                    <h3>Acerca de <div class="blue-letter">Medicamos tu vida SA</div>
+                    </h3>
+                    <p>Somos una farmacéutica dedicada a la venta de medicamentos genéricos y de patente, con más de 10
+                        años de experiencia en el mercado, actualmente somos reconocidos en el mercado farmacéutico
+                        estatal. </p>
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-12 col-12 imagen">
+                <img src="./img/pequeno-frasco-blanco-pastillas-blancas-sobre-superficie-gris.jpg">
+            </div>
+
+
+        </section>
+
+
+        <div class="wrapper" id="valores">
+            <div class="title">
+                <h3>MVV</h3>
+                <h2>Mision, Vision y Valores</h2>
+            </div>
+            <div class="box">
+                <img src="img/img1.png" alt="">
+                <div class="info">
+                    <h2>Mision</h2>
+                    <p>Ofrecer el mejor servicio y la mayor variedad de medicamentos a nuestros clientes.</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/img4.png" alt="">
+                <div class="info">
+                    <h2>Vision</h2>
+                    <p>Vender nuestros productos en toda la republica mexicana.</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/img6.png" alt="">
+                <div class="info">
+                    <h2>Valores</h2>
+                    <p>Respeto, Honestidad, perseverancia, responsabilidad.</p>
+                </div>
+            </div>
+        </div>
+
+        <section class="sicefa" id="sicefaC">
+            <h2>Sicefa central</h2>
+            <div class="imagen">
+                <img src="./img/yellowpills.png">
+            </div>
+            <div class="container-boton">
+                <a href="./home/login_central.html" id="sicefaCentral">Iniciar sesion</a>
+            </div>
+
+
+
+        </section>
+
+
+
+
+
+        <section class="sicefa" id="sicefaS">
+            <h2>Sicefa sucursal</h2>
+            <div class="imagen">
+                <img src="./img/a-single-pink-pill-on-a-baby-blue-surface.png">
+            </div>
+            <div class="container-boton">
+                <a href="./home/login_sucursal.html" id="sicefaSucursal">Iniciar sesion</a>
+            </div>
+
+
+
+        </section>
+
+
+
+        <footer>
+
+            <div class="row">
+                <div class="col-lg-6 mapa">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1860.5236329833!2d-101.68817106116155!3d21.150517196657983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842bbf46353d44ad%3A0x121c6dd5078170bf!2sFuturama%20Monterrey%2C%2037180%20Le%C3%B3n%2C%20Gto.!5e0!3m2!1ses-419!2smx!4v1689628545749!5m2!1ses-419!2smx"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-lg-6 info">
+                    <div class="contacto">
+                        <p><strong>Contacto:</strong></p>
+                        <p>sicefaCentral@outlook.com</p>
+
+
+                        <p><strong>Telefono:</strong></p>
+                        <p>477 123 4569</p>
+                        <p>477 888 1210</p>
+                    </div>
+
+                    <div class="redes">
+                        <p><strong>Redes sociales</strong> </p>
+                        <p><strong>Facebook:</strong></p>
+                        <p>Medicamos tu vida</p>
+                        <p><strong>Instagram: </strong></p>
+                        <p>@medicamosSA</p>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+<script src="./js/main.js"></script>
+<script src="./js/loginsPeticion.js"></script>
+<script src="./js/index.js"></script>
+</html>

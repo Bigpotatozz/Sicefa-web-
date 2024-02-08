@@ -1,0 +1,616 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  border: none;
+  font-family: "Urbanist", sans-serif;
+}
+
+
+a {
+  cursor: pointer;
+}
+
+body {
+
+
+  background: #94ADD7;
+}
+
+.contenedorTotal {
+  display: flex;
+}
+
+body .navegacion2 {
+  margin-top: 200px;
+  margin-left: 70px;
+  border-radius: 2%;
+  top: 15%;
+  bottom: 10%;
+  background: rgba(148, 171, 215, 0.6784313725);
+
+  width: 200px;
+  overflow: hidden;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.4);
+  height: 600px;
+  padding-top: 30px;
+}
+
+body .navegacion2 a {
+  position: relative;
+  color: white;
+  font-size: 25px;
+  display: table;
+  width: 300px;
+  padding: 15px;
+  text-decoration: none;
+}
+
+body .navegacion2 a:hover {
+  transition: 0.7s;
+  background: #94ADD7;
+  color: #F36060;
+}
+
+.logo-title {
+  text-align: center;
+  margin-left: -12px;
+}
+
+body .navegacion2 .logo-umb {
+  width: 85%;
+  padding-bottom: 0;
+  padding-left: 20px;
+}
+
+body .logo {
+  display: flex;
+
+}
+
+body .logo img {
+  width: 170px;
+
+
+}
+
+body li {
+  list-style: none;
+}
+
+body h1,
+body h2 {
+  color: black;
+}
+
+body .nosotros-container {
+  background: #F6F1F1;
+}
+body  .nosotros-container .texto {
+  text-align: left;
+}
+
+body  .nosotros-container .texto .text-container {
+  margin-top: 100px;
+  margin-left: 70px;
+}
+
+.img-sicefa{
+  width: 380px;
+  margin-bottom: 70px;
+}
+
+.inicio{
+  margin-left: 110px;
+  text-decoration: none;
+  background-color: #F28DE2;
+  width: 200px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 20px;
+}
+
+.logout{
+  width: 30px;
+}
+
+
+.inicio_yellow{
+  margin-left: 110px;
+  text-decoration: none;
+  background-color: #F4CB55;
+  width: 200px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 20px;
+  
+}
+
+.input1{
+  width: 420px;
+  height: 36px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+body  .nosotros-container .texto .text-container h2 {
+  color: black;
+  font-size: 35px;
+}
+
+
+
+body  .nosotros-container .texto .text-container p {
+  font-size: 30px;
+}
+
+body  .nosotros-container .imagen img {
+  width: 100%;
+  max-width: 1910px;
+  height: 900px;
+}
+
+.dev{
+  margin-top: 100px;
+  margin-left: 220px;
+}
+
+.img-umb{
+  width: 150px;
+  margin-left: 190px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+body #eliminarSucursal {
+  height: 450px;
+}
+
+body #eliminarSucursal .columna .tercerColumna {
+  margin-top: 24px;
+}
+
+body #eliminarSucursal .columna .tercerColumna .registrar {
+  position: relative;
+  top: 80px;
+  left: 230px;
+}
+
+body #eliminarSucursal .columna .tercerColumna .registrar a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px 10px 15px;
+  border: solid 1px white;
+  border-radius: 10px;
+}
+
+body #eliminarSucursal .columna .tercerColumna .registrar a:hover {
+  transition: 1s;
+  background: white;
+  color: #94ADD7;
+}
+
+body #eliminarClientes {
+  height: 450px;
+}
+
+body #eliminarClientes .columna .tercerColumna .registrar {
+  position: relative;
+  top: 380px;
+  left: 0px;
+}
+
+body #eliminarClientes .columna .tercerColumna .registrar a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px 10px 15px;
+  border: solid 1px white;
+  border-radius: 10px;
+}
+
+body #eliminarClientes .columna .tercerColumna .registrar a:hover {
+  transition: 1s;
+  background: white;
+  color: #94ADD7;
+}
+
+body h1 {
+
+  font-size: 80px;
+  color: white;
+  margin-top: 180px;
+  margin-left: 80px;
+  margin-bottom: 30px;
+}
+
+
+body .buscador {
+  margin-left: 100px;
+
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+
+  font-size: 20px;
+  width: 530px;
+  padding: 20px;
+}
+
+body .buscador .botonBuscar {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+body .buscador .botonBuscar a {
+  border: solid 1px white;
+  color: white;
+  padding: 15px 30px 15px 30px;
+  border-radius: 200px;
+}
+
+body .buscador .botonBuscar a:hover {
+  background: white;
+  color: #94ADD7;
+  transition: 1s;
+}
+
+body .buscador .inptBuscar {
+  display: flex;
+  align-items: center;
+}
+
+body .buscador .inptBuscar input {
+  border: solid 1px white;
+  border-radius: 200px;
+  height: 60px;
+  width: 500px;
+  background: #94ADD7;
+  padding: 15px;
+  color: white;
+  font-size: 30px;
+}
+
+body .menu {
+  margin-left: 70px;
+}
+
+body .menu ul {
+  display: flex;
+
+}
+
+body .menu ul li {
+
+  margin: 15px;
+
+}
+
+body .menu ul li a {
+
+  border: solid 1px white;
+  color: white;
+  padding: 15px 30px 15px 30px;
+  border-radius: 200px;
+}
+
+body .menu ul li a:hover {
+  background: white;
+  color: #94ADD7;
+  transition: 1s;
+}
+
+body .contenedor {
+  display: flex;
+  border: solid 1px white;
+  border-radius: 10px;
+  margin: 20px;
+  font-size: 20px;
+  width: 700px;
+  padding: 20px;
+
+}
+
+body .contenedor .columna {
+  display: flex;
+}
+
+body .contenedor .columna .primerColumna .inptS,
+body .contenedor .columna .segundaColumna .inptS,
+body .contenedor .columna .tercerColumna .inptS {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+body .contenedor .columna .primerColumna .inptS .hombre,
+body .contenedor .columna .primerColumna .inptS .mujer,
+body .contenedor .columna .segundaColumna .inptS .hombre,
+body .contenedor .columna .segundaColumna .inptS .mujer,
+body .contenedor .columna .tercerColumna .inptS .hombre,
+body .contenedor .columna .tercerColumna .inptS .mujer {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+
+body .contenedor .columna .primerColumna .inpt,
+body .contenedor .columna .segundaColumna .inpt,
+body .contenedor .columna .tercerColumna .inpt {
+  margin: 10px;
+}
+
+body .contenedor .columna .primerColumna select,
+body .contenedor .columna .segundaColumna select,
+body .contenedor .columna .tercerColumna select {
+  border: solid 1px transparent;
+  border-radius: 5px;
+  height: 30px;
+}
+
+body .contenedor .columna .primerColumna input,
+body .contenedor .columna .segundaColumna input,
+body .contenedor .columna .tercerColumna input {
+  border: solid 1px transparent;
+  border-radius: 5px;
+  height: 30px;
+}
+
+body .contenedor .columna .primerColumna .registrar,
+body .contenedor .columna .segundaColumna .registrar,
+body .contenedor .columna .tercerColumna .registrar {
+  position: relative;
+  top: 148px;
+  left: 200px;
+}
+
+body .contenedor .columna .primerColumna .registrar a,
+body .contenedor .columna .segundaColumna .registrar a,
+body .contenedor .columna .tercerColumna .registrar a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px 10px 15px;
+  border: solid 1px white;
+  border-radius: 10px;
+}
+
+body .contenedor .columna .primerColumna .registrar a:hover,
+body .contenedor .columna .segundaColumna .registrar a:hover,
+body .contenedor .columna .tercerColumna .registrar a:hover {
+  transition: 1s;
+  background: white;
+  color: #94ADD7;
+}
+
+body #agregarClientes .columna .tercerColumna .registrar {
+  position: relative;
+  top: 440px;
+  left: 90px;
+}
+
+body #agregarClientes .columna .tercerColumna .registrar a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px 10px 15px;
+  border: solid 1px white;
+  border-radius: 10px;
+}
+
+body #agregarClientes .columna .tercerColumna .registrar a:hover {
+  transition: 1s;
+  background: white;
+  color: #94ADD7;
+}
+
+body #agregarCompra .columna .tercerColumna .registrar {
+  position: relative;
+  top: 100px;
+  left: 150px;
+}
+
+body #agregarCompra .columna .tercerColumna .registrar a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px 10px 15px;
+  border: solid 1px white;
+  border-radius: 10px;
+}
+
+body #agregarCompra .columna .tercerColumna .registrar a:hover {
+  transition: 1s;
+  background: white;
+  color: #94ADD7;
+}
+
+body #agregarProducto .columna .tercerColumna .registrar {
+  position: relative;
+  top: 320px;
+  left: 70px;
+}
+
+body #agregarProducto .columna .tercerColumna .registrar a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px 10px 15px;
+  border: solid 1px white;
+  border-radius: 10px;
+}
+
+body #agregarProducto .columna .tercerColumna .registrar a:hover {
+  transition: 1s;
+  background: white;
+  color: #94ADD7;
+}
+
+body #agregarEmp .columna .tercerColumna .registrar {
+  position: relative;
+  top: 280px;
+  left: 150px;
+}
+
+body #agregarEmp .columna .tercerColumna .registrar a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px 10px 15px;
+  border: solid 1px white;
+  border-radius: 10px;
+}
+
+
+
+
+body #agregarEmp .columna .tercerColumna .registrar a:hover {
+  transition: 1s;
+  background: white;
+  color: #94ADD7;
+}
+
+body #agregarSucursal .columna .tercerColumna .registrar {
+  position: relative;
+  top: 220px;
+  left: 150px;
+}
+
+body #agregarSucursal .columna .tercerColumna .registrar a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px 10px 15px;
+  border: solid 1px white;
+  border-radius: 10px;
+}
+
+body #agregarSucursal .columna .tercerColumna .registrar a:hover {
+  transition: 1s;
+  background: white;
+  color: #94ADD7;
+}
+
+body #agregarVenta .columna .tercerColumna .registrar {
+  position: relative;
+  top: 230px;
+  left: 150px;
+}
+
+body #agregarVenta .columna .tercerColumna .registrar a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px 10px 15px;
+  border: solid 1px white;
+  border-radius: 10px;
+}
+
+body #agregarVenta .columna .tercerColumna .registrar a:hover {
+  transition: 1s;
+  background: white;
+  color: #94ADD7;
+}
+
+body #modificarSucursal .columna .tercerColumna .registrar {
+  position: relative;
+  top: 280px;
+  left: 150px;
+}
+
+body #modificarClientes .columna .tercerColumna .registrar {
+  position: relative;
+  top: 400px;
+  left: 80px;
+}
+
+
+
+body #modificarEmp .columna .tercerColumna .registrar {
+  position: relative;
+  top: 380px;
+  left: 80px;
+}
+
+body #modificarCompra .columna .tercerColumna .registrar {
+  position: relative;
+  top: 170px;
+  left: 150px;
+}
+
+body #modificarProducto .columna .tercerColumna .registrar {
+  position: relative;
+  top: 250px;
+  left: 50px;
+}
+
+body #modificarVenta .columna .tercerColumna .registrar {
+  position: relative;
+  top: 230px;
+  left: 150px;
+}
+
+body #modificarSucursal .columna .tercerColumna .registrar {
+  position: relative;
+  top: 280px;
+  left: 150px;
+}
+
+body #modificarClientes .columna .tercerColumna .registrar {
+  position: relative;
+  top: 490px;
+  left: 80px;
+}
+
+body #modificarEmp .columna .tercerColumna .registrar {
+  position: relative;
+  top: 190px;
+  left: 100px;
+}
+
+body #modificarCompra .columna .tercerColumna .registrar {
+  position: relative;
+  top: 170px;
+  left: 150px;
+}
+
+body #modificarProducto .columna .tercerColumna .registrar {
+  position: relative;
+  top: 200px;
+  left: 50px;
+}
+
+body #modificarVenta .columna .tercerColumna .registrar {
+  position: relative;
+  top: 230px;
+  left: 150px;
+}
+
+.registrare{
+  top: 400px;
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px 10px 15px;
+  border: solid 1px white;
+  border-radius: 10px;
+}
+
+.registrare:hover{
+  transition: 1s;
+  background: white;
+  color: #94ADD7;
+}
